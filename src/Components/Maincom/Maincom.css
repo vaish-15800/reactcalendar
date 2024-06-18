@@ -1,0 +1,154 @@
+ .calendar-container {
+    
+   
+    
+    margin: auto;
+    font-family: Arial, sans-serif;
+    margin-left: 30px;
+    margin-bottom:0%;
+    max-width: fit-content;
+
+    
+  }
+  
+  .calendar-top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px;
+    background-color:#F5F6FA;
+    border-bottom: 1px solid #ffffff;
+    border-radius: 5px;
+  }
+  
+  .calendar-title {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  
+  .calendar-buttons .nav-button {
+    padding: 10px;
+    margin: 0 5px;
+    border: none;
+    background-color:  rgb(225, 226, 231);
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 10px;
+    padding-left: 25px;
+    justify-content: center;
+
+  }
+  .nav-button {
+    padding-left: 20px;
+   
+
+  }
+  .calendar-buttons{
+padding-left: 550px;
+  }
+  
+  .calendar-buttons .nav-button.active {
+    background-color: #605bff;
+    color: white;
+    border-radius: 10px;
+    padding-left: 10px;
+
+  }
+  
+  .calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+    border-radius: 10px;
+  }
+  .navigation{
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 0 5px;
+  }
+  
+  .calendar-days {
+    display: flex;
+    background-color: #F5F6FA;
+    padding: 26px 0;
+  }
+  
+  .calendar-days > div {
+    flex: 1;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .calendar-body {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 1px;
+    background-color: #ddd;
+    width: 975px;
+    height: 693px;
+    
+    text-align:center ;
+  }
+  
+  .day, .empty {
+    background-color: #ffffff;
+    padding: 10px;
+    min-height: 100px;
+    position: relative;
+  }
+  .empty{
+    color: #c9c3c3;
+    text-align: center;
+    
+  }
+  
+  .event {
+    display: block;
+    margin-top: 2px;
+    padding: 2px 5px;
+    font-size: 0.8em;
+    border-radius: 3px;
+  }
+  
+  .free-day {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .party-time {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .more {
+    background-color: #ffc107;
+    color: white;
+  }
+  
+  .victory-day {
+    background-color: #ff6347;
+    color: white;
+    font-size: 0.8em;
+  }
+  
+  .invited {
+    background-color: #ff69b4;
+    color: white;
+    
+    
+    
+  }
+  
+  .christmas-day {
+    background-color: #00ced1;
+    color: white;
+    
+  }
+  
+   

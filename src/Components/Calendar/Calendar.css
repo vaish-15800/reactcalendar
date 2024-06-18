@@ -1,0 +1,88 @@
+.calendar-container {
+    display: grid;
+    gap: 10px;
+    max-width: 800px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f0f0f0;
+  }
+  
+  .navigation button {
+    border: none;
+    background: none;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .calendar-days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .calendar-body {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 1px;
+  }
+  
+  .day, .empty {
+    border: 1px solid #ddd;
+    padding: 20px;
+    min-height: 100px;
+    position: relative;
+    text-align: center;
+  }
+  
+  .day span {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .event {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    background-color: #f0f0f0;
+    padding: 2px 5px;
+    font-size: 12px;
+    border-radius: 3px;
+    text-align: center;
+  }
+  
+  .free-day {
+    background-color: #ffcccc;
+  }
+  
+  .party-time {
+    background-color: #ccffcc;
+  }
+  
+  .more {
+    background-color: #ccccff;
+  }
+  
+  .victory-day {
+    background-color: #ffcc99;
+  }
+  
+  .invited {
+    background-color: #ff99ff;
+  }
+  
+  .christmas-day {
+    background-color: #99ccff;
+  }
+  
